@@ -1,6 +1,6 @@
 <div align="center">
 <img src="https://github.com/mostafaalagamy/Metrolist/blob/main/fastlane/metadata/android/ic_launcher_github.webp" width="160" height="160" style="display: block; margin: 0 auto"/>
-<h1>Metrolist</h1>
+<h1>Sobify</h1>
 <p>YouTube Music client for Android</p>
 
 <h1>Screenshots</h1>
