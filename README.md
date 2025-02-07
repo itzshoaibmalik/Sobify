@@ -30,7 +30,7 @@ src="https://github.com/mostafaalagamy/Metrolist/blob/main/fastlane/metadata/and
 - Personalized quick picks 
 - Library management 
 - Download and cache songs for offline playback
-- Search for songs, albums, artists, videos and playlists
+- Search for songs, albums, artists, videos and playlists.
 - Live lyrics 
 - YouTube Music account login support
 - Syncing of songs, artists, albums and playlists, from and to your account
