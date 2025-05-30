@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Landing Page -->
+    <div id="landingPage" class="landing-page">
+        <div class="search-container">
+            <h1>What would you like to listen to?</h1>
+            <div class="search-box">
+                <input type="text" id="songSearch" placeholder="Search for a song...">
+                <button id="searchBtn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Player -->
+    <div id="playerContainer" class="player-container" style="display: none;">
+        <div class="background-animation"></div>
+        
+        <!-- Album Section -->
+        <div class="album-section">
+            <img id="albumCover" src="https://via.placeholder.com/400" alt="Album Cover" class="album-cover">
+            <div class="song-info">
+                <h2 id="songTitle">Song Title</h2>
+                <p id="artistName">Artist Name</p>
+            </div>
+            <div class="player-controls">
+                <button id="prevBtn" class="control-btn"><i class="fas fa-step-backward"></i></button>
+                <button id="playBtn" class="control-btn play-btn"><i class="fas fa-play"></i></button>
+                <button id="nextBtn" class="control-btn"><i class="fas fa-step-forward"></i></button>
+            </div>
+            <div class="progress-container">
+                <div class="progress">
+                    <div class="progress-filled"></div>
+                </div>
+                <div class="time-info">
+                    <span class="current-time">0:00</span>
+                    <span class="total-time">0:00</span>
+                </div>
+            </div>
+            <div class="volume-control">
+                <i class="fas fa-volume-up"></i>
+                <input type="range" class="volume-slider" min="0" max="100" value="100">
+            </div>
+        </div>
+
+        <!-- Lyrics Section -->
+        <div class="lyrics-section">
+            <div class="lyrics-container">
+                <div id="lyrics" class="lyrics">
+                    <!-- Lyrics will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
